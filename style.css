@@ -7,6 +7,17 @@
     font-weight: 400;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    gap: 20px;
+    background-color: #141414;
+}
+
 h2{
     font-weight: 800;
 }
@@ -14,8 +25,6 @@ h2{
 .container{
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    background-color: #141414;
     width: 100%;
     background-repeat: no-repeat;
     justify-content: center;
@@ -25,16 +34,15 @@ h2{
     border-radius: 15px;
     background-color: #1F1F1F;
     background-repeat: no-repeat;
-    height: 550px;
+    height: 560px;
     width: 350px;
     text-align: center;
     margin: auto;
+    padding: 20px;
 }
 
 .attribution {
     font-size: 11px;
-    text-align: center;
-    margin-bottom: 20px;
 }
 
 .attribution a{ 
@@ -52,7 +60,7 @@ h2{
 
 .perfil img{
     border-radius: 50%;
-    margin: 30px 0 20px 0;
+    margin: 20px 0;
 }
 
 .perfil p{
@@ -64,7 +72,7 @@ p{
     margin-top: 10px;
     font-size: 14px;
     margin-bottom: 20px;
-    width: 60%;
+    width: 90%;
     margin: 10px auto 0;
 }
 
